@@ -12,11 +12,11 @@ $app = JFactory::getApplication();
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
 	<jdoc:include type="head" />
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/offline.css" type="text/css" />
+	<link rel="stylesheet" href="<?=$this->baseurl?>/templates/system/css/offline.css" type="text/css" />
 	<?php if ($this->direction == 'rtl') : ?>
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/offline_rtl.css" type="text/css" />
+	<link rel="stylesheet" href="<?=$this->baseurl?>/templates/system/css/offline_rtl.css" type="text/css" />
 	<?php endif; ?>
-	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="<?=$this->baseurl?>/templates/system/css/general.css" type="text/css" />
 </head>
 <body>
 <jdoc:include type="message" />

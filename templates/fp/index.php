@@ -46,24 +46,24 @@ unset($this->_scripts[$this->baseurl.'/media/system/js/mootools-core.js'],
 ?>
 <jdoc:include type="head" />
 <script src="http://vk.com/js/api/openapi.js?108" type="text/javascript"></script>
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/grey.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl ?>/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl ?>/templates/<?php echo $this->template ?>/css/grey.css" type="text/css" />
 <!--[if IE 6]>
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/ie6.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl?>/templates/<?=$this->template?>/css/ie6.css" type="text/css" />
 <style type="text/css">
-img, div, a, input { behavior: url(<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/iepngfix.htc) }
+img, div, a, input { behavior: url( <?=$this->baseurl?>/templates/<?php echo $this->template ?>/iepngfix.htc) }
 #topmenuwrap, div.moduletable h3, div.moduletable_menu h3, #search input.inputbox { behavior:none;}
 </style>
-<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/iepngfix_tilebg.js" type="text/javascript"></script>
+<script src="<?=$this->baseurl ?>/templates/<?php echo $this->template ?>/js/iepngfix_tilebg.js" type="text/javascript"></script>
 <![endif]-->
 <!--[if lte IE 7]>
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/ie67.css" type="text/css" />
+<link rel="stylesheet" href="<?=$this->baseurl ?>/templates/<?php echo $this->template ?>/css/ie67.css" type="text/css" />
 <![endif]-->
 <!--[if lte IE 8]>
 <style type="text/css">
-#topmenuwrap, div.moduletable h3, div.moduletable_menu h3, #search input.inputbox { behavior: url(<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/PIE.php) }
+#topmenuwrap, div.moduletable h3, div.moduletable_menu h3, #search input.inputbox { behavior: url(<?=$this->baseurl ?>/templates/<?php echo $this->template ?>/js/PIE.php) }
 </style>
 <![endif]-->
 <style type="text/css">
