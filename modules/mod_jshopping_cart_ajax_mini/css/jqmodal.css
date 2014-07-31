@@ -1,0 +1,17 @@
+#DOMWindow p{ text-align:center; line-height:1.8; font-family:"Times New Roman", Times, serif; margin:5px 0px; padding:0;}
+.modal_header{ text-decoration:underline; font-size:18px; color:#cc0000;}
+.modal_text{font-size:16px;}
+.modal_to_cart a{
+	font-size:16px;
+	text-decoration:none;
+	padding:5px 10px;
+	margin:0 5px;
+	background-color: #7BB505;
+	color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.modal_checkout a{font-size:16px;text-decoration:none;padding:5px 10px;margin:0 5px;background-color: #7BB505;color: #FFFFFF;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.modal_err {display: block;text-align: center;font-size: 16px;font-weight: bold; color: #cc0000;margin: 35px 0 0 0;}
+.notselected{background-color:#cccccc;}
